@@ -4,10 +4,10 @@ import re
 from telethon import TelegramClient, events
 import requests
 
-api_id = '26386436'
-api_hash = 'a41982574ed3c9ca4f791b12a8c500d3'
+api_id = 'your_id'
+api_hash = 'your_hash'
 
-bot_token = '7069711398:AAEGySksySctB9Ked3W8kIG-XO2iD8tCv2A'
+bot_token = 'your_token'
 
 # Функция для обработки запросов пользователя
 async def handle_request(event):
